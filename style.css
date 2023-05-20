@@ -1,0 +1,63 @@
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vw;
+}
+#header {
+    background-color: aquamarine;
+    display: flex;
+    flex-grow: 1;
+}
+#logoContainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    width: 100px;
+    height: auto;
+}
+.hlinks1 {
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ flex-grow: 1;
+}
+.hlinks2 {
+ flex-grow: 1;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+#middle {
+    flex-grow: 40;
+}
+.contentDiv.section1 {
+    background-image: url(images/content-pixie-2V5PJgGqyts-unsplash.jpg);
+    background-size: cover;
+    flex-grow: 1;
+    height: 100vh;
+    width: auto;
+}
+.contentDiv.section2 {
+    background-image: url(images/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+#footer {
+    flex-grow: 1;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 25px;
+}
+a {
+    text-decoration: none;
+}
