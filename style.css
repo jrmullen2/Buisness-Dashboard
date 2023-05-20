@@ -8,7 +8,8 @@
 #header {
     background-color: aquamarine;
     display: flex;
-    flex-grow: 1;
+    position: sticky;
+    top: 0px;
 }
 #logoContainer {
     display: flex;
@@ -33,7 +34,7 @@
  align-items: center;
 }
 #middle {
-    flex-grow: 40;
+    flex-grow: 2;
 }
 .contentDiv.section1 {
     background-image: url(images/content-pixie-2V5PJgGqyts-unsplash.jpg);
@@ -41,12 +42,33 @@
     flex-grow: 1;
     height: 100vh;
     width: auto;
+    color:burlywood;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .contentDiv.section2 {
     background-image: url(images/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section1Div {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+}
+#header1 {
+    font-size: 72px;
+    font-weight: 700px;
+    line-height: 72px;
+}
+#content1 {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25px;
 }
 #footer {
     flex-grow: 1;
