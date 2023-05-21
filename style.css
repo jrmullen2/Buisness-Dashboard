@@ -46,11 +46,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .contentDiv.section2 {
-    background-image: url(images/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg);
-    background-size: cover;
     height: 100vh;
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 #section1Div {
     position: absolute;
@@ -69,6 +69,68 @@
     font-size: 16px;
     font-weight: 400px;
     line-height: 25px;
+}
+#header2 {
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#section2Title {
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#section2Summary {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#content2 {
+    flex-grow: 3;
+    display: flex;
+    background-color: rgb(233, 232, 232);
+}
+.content2.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.content2.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.content2.button {
+    background-color: aquamarine;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    height: 42px;
+    padding: 1px 6px;
+}
+#sideDiv {
+    width: 500px;;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imageDiv {
+    background-image: url(images/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg);
+    background-size: cover;
+    width: 1000px;
+    height: auto;
+}
+.whiteDiv {
+    background-color: white;
+    height: auto;
+    width: 200px;
 }
 #footer {
     flex-grow: 1;
