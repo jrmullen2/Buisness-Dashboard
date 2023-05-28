@@ -1,171 +1,167 @@
-
 #container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height:100vw;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vw;
 }
 #header {
-    background-color: aquamarine;
-    display: flex;
-    position: sticky;
-    top: 0px;
-    width: 100vw;
+  background-color: aquamarine;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  width: 100vw;
 }
 #logoContainer {
-    display: flex;
-    flex-grow: 1;
-    justify-content: start;
-    align-items: center;
-    padding-left: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #logo {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 .hlinks1 {
- display: flex;
- justify-content: start;
- align-items: center;
- flex-grow: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-grow: 1;
 }
 .hlinks2 {
- flex-grow: 1;
- display: flex;
- justify-content: space-evenly;
- align-items: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #middle {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 .contentDiv.section1 {
-    background-image: url(images/content-pixie-2V5PJgGqyts-unsplash.jpg);
-    background-size: cover;
-    flex-grow: 1;
-    height: 100vh;
-    width: auto;
-    color:burlywood;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: url(images/debby-hudson-o9KNLaITFYw-unsplash.jpg);
+  background-size: cover;
+  flex-grow: 1;
+  height: 100vh;
+  width: 100vw;
+  color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contentDiv.section2 {
-    height: 100vh;
-    width: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
+  max-height: 100vh;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 #section1Div {
-    left: 400px;
-    top: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 100vh;
 }
 #section1Div.filler {
-    width: 25vw;
-    height: auto;
+  max-width: 25vw;
+  height: auto;
 }
 #subDiv {
-    width: 475px;
-    height: auto;
+  width: 475px;
+  height: auto;
 }
 #header1 {
-    font-size: 72px;
-    font-weight: 700px;
-    line-height: 72px;
-    float: left;
+  font-size: 72px;
+  font-weight: 700px;
+  line-height: 72px;
+  float: left;
 }
 #content1 {
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 25px;
-}
-.filler {
-    width: 100vw;
-    height: 25vh;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 25px;
 }
 #header2 {
-    flex-grow:1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 #section2Title {
-    font-size: 36px;
-    line-height: 42px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 #section2Summary {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 #content2 {
-    flex-grow: 3;
-    display: flex;
-    background-color: rgb(233, 232, 232);
+  flex-grow: 3;
+  display: flex;
+  background-color: rgb(233, 232, 232);
 }
 .content2.title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.2;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
 }
 .content2.description {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
 }
 .content2.button {
-    background-color: aquamarine;
-    color: white;
-    border-radius: 4px;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    height: 42px;
-    padding: 1px 6px;
+  background-color: aquamarine;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  height: 42px;
+  padding: 1px 6px;
 }
 #sideDiv {
-    width: 500px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 11% 4.5% 13.5% 6%;
-    gap: 50px;
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11% 4.5% 13.5% 6%;
+  gap: 50px;
 }
 #imageDiv {
-    background-image: url(images/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg);
-    background-size: cover;
-    width: 1000px;
-    height: auto;
+  background-image: url(images/cris-tagupa-9ZXHUr5aCwM-unsplash.jpg);
+  background-size: cover;
+  width: 80rem;
+  height: auto;
 }
 .whiteDiv {
-    background-color: white;
-    height: auto;
-    width: 200px;
+  background-color: white;
+  height: auto;
+  max-width: 200px;
 }
 #footer {
-    flex-grow: 1;
-    background-color:rgb(231, 226, 177);
+  flex-grow: 1;
+  background-color: rgb(231, 226, 177);
 }
 ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-    padding: 0px;
-    gap: 25px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0px;
+  gap: 25px;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
